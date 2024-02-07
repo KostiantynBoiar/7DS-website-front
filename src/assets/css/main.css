@@ -502,7 +502,9 @@ footer .footerBody .col ul a {
     line-height: 38px;
     text-decoration: none;
 }
-
+.footerBody{
+    max-width: 1440px;
+}
 footer>span {
     color: rgb(255, 255, 255);
     font-family: Rubik;
@@ -541,9 +543,9 @@ footer>span {
 .contact-wrapper {
     display: flex;
     height: 59px;
-    right: 55%;
-    position: absolute;
-    top: 553px;
+    left: 10%;
+    position: relative;
+    top: 0px;
     width: 447px;
   }
   
@@ -646,6 +648,9 @@ footer>span {
 
 
 @media screen and (max-width:1240px) {
+    .main-container{
+        width: 100%;
+    }
     .topBaner .topBanerImg {
         width: 350px;
     }
