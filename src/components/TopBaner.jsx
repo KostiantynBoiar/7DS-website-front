@@ -3,6 +3,7 @@ import LogoImg from "./../assets/img/logo.svg";
 import ArrowRight from "./../assets/img/arrow_right.svg";
 import TelegramImg from "./../assets/img/telegram.svg";
 import TwitterImg from "./../assets/img/twitter.svg";
+
 const TopBaner = () => {
     return (
         <div className='topBaner'>

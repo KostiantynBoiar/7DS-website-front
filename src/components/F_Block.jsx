@@ -1,5 +1,7 @@
 import React from 'react'
 import LogoImg from "./../assets/img/logo.svg";
+import Modal from './Modal';
+
 const FeaturesBlock = ({ direction, title, text, link }) => {
     return (
         <div className={direction == 'left' ? 'featuresBlock' : 'featuresBlock featuresBlockRight'}>
@@ -13,4 +15,4 @@ const FeaturesBlock = ({ direction, title, text, link }) => {
     )
 }
 
-export default FeaturesBlock
+export default FeaturesBlock;

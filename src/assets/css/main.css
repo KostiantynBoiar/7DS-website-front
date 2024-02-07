@@ -9,6 +9,11 @@ html {
     scroll-behavior: smooth;
 }
 
+.roadmap-image{
+    width: 200%;
+    height: 200%;
+    flex-shrink: 0;
+}
 header {
     max-width: 1036px;
     margin: 0 auto;
@@ -226,7 +231,7 @@ header nav a:last-child {
     margin-top: 24px;
 }
 
-.features .featuresBlock .content a {
+.features .featuresBlock .content button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -376,6 +381,10 @@ header nav a:last-child {
 
 .roadMap .roadMapElem .roadMapElemBody {
     width: 203px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
     height: 111px;
     border: 2px solid black;
     border-radius: 58px;
