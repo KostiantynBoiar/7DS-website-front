@@ -28,10 +28,10 @@ header {
 header .logo {
     display: flex;
     align-items: center;
-    color: rgba(255, 255, 255, .7);
-    font-family: Inter;
+    color: rgb(224, 224, 224);
+    font-family: Rubik;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 900;
     line-height: 22px;
     letter-spacing: 4%;
 }
@@ -108,7 +108,7 @@ header nav a:last-child {
 .topBaner .left span {
     color: rgb(224, 224, 224);
     font-family: Rubik;
-    font-size: 16px;
+    font-size: 32px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 1%;
@@ -123,8 +123,8 @@ header nav a:last-child {
 
 .topBaner .left .btns .btn {
     position: relative;
-    width: 190px;
-    height: 64;
+    width: 240px;
+    height: 90px;
     /* Auto layout */
     display: flex;
     justify-content: center;
@@ -133,7 +133,7 @@ header nav a:last-child {
     border-radius: 32px;
     color: rgb(255, 255, 255);
     font-family: Rubik;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0%;
@@ -273,8 +273,8 @@ header nav a:last-child {
 }
 
 .data .dataElem {
-    max-width: 231px;
-    width: calc(231px - 48px);
+    max-width: 250px;
+    width: calc(250px - 48px);
     padding: 24px;
     display: flex;
     align-items: center;
@@ -317,6 +317,7 @@ header nav a:last-child {
 }
 
 .data {
+    max-width: 1300px;
     width: calc(100% - 56px);
     margin: 0 auto;
 
@@ -345,6 +346,7 @@ header nav a:last-child {
 .roadMap {
     width: 1294px;
     margin: 0 auto;
+    bottom: 4ch;
     position: relative;
 }
 
@@ -461,7 +463,6 @@ footer .footerBody .col h3 {
 
 footer .footerBody .col ul {
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
     margin-left: 0;
     margin-block-start: 0;
@@ -470,6 +471,23 @@ footer .footerBody .col ul {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
+
+.social-icons {
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 20px; /* Уменьшаем пространство между иконками */
+}
+
+.social-icons img {
+    width: 50px; /* Ширина изображений */
+    height: 50px; /* Высота изображений */
+}
+
 
 footer .footerBody .col ul a {
     color: rgb(242, 242, 242);
@@ -488,6 +506,47 @@ footer>span {
     line-height: 28px;
 }
 
+.up-arrow {
+    position: fixed;
+    bottom: 32px;
+    right: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.up-arrow svg {
+    fill: #ffffff;
+    width: 32px;
+    height: 32px;
+}
+
+.up-arrow:hover{
+    bottom: 45px;
+    animation-name: upArrow;
+    animation-timing-function: linear;
+    animation-duration: 0.5s;
+}
+@keyframes upArrow {
+    0%{
+        bottom: 32px;
+    }
+
+    100%{
+        bottom: 38px;
+    }
+    
+}
+@media screen and (min-width: 1620) {
+    .dataElem{
+        width: auto;
+    }
+}
 @media screen and (max-width:1620px) {
     .roadMap {
         width: 80%;

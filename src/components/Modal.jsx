@@ -25,11 +25,7 @@ const Modal = ({ isOpen, onClose }) => {
                     {/*body*/}
                     <div className="relative p-6 flex-auto">
                         <p className="my-4 text-white text-lg leading-relaxed">
-                            I always felt like I could do anything. That’s the main
-                            thing people are controlled by! Thoughts- their perception
-                            of themselves! They're slowed down by their perception of
-                            themselves. If you're taught you can’t do anything, you
-                            won’t do anything. I was taught I could do everything.
+                            хуй пізда хуй пізда хуй пізда хуй піздахуй пізда хуй піздахуй пізда хуй піздахуй пізда хуй піздахуй пізда хуй піздахуй пізда хуй піздахуй пізда хуй піздахуй пізда хуй піздахуй пізда хуй пізда
                         </p>
                     </div>
                     {/*footer*/}

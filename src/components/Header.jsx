@@ -27,7 +27,7 @@ const Header = () => {
         <header>
             <div className="logo">
                 <img src={LogoImg} alt="logo" />
-                7DS
+                ENVY
             </div>
             <nav>
                 <a href="#" className="scroll-to-class" data-class="topBaner">Home</a>

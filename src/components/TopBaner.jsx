@@ -8,15 +8,13 @@ const TopBaner = () => {
     return (
         <div className='topBaner'>
             <div className="left">
-                <h1>Best cryptocurrency 2024</h1>
-                <span>The text of your company's slogan to attract customers</span>
+                <h1>BUY&HOLD AND GET RICH</h1>
+                <span>Seven deadly sins - seven chances</span>
                 <div className="btns">
                     <div className="btn">
                         Buy it now
                         <img src={ArrowRight} />
                     </div>
-                    <a href="#"><img src={TelegramImg} /></a>
-                    <a href="#"><img src={TwitterImg} /></a>
                 </div>
             </div>
             <img className='topBanerImg' src={LogoImg} />
