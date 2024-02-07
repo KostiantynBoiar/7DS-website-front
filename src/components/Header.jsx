@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import LogoImg from './../assets/img/logo.svg';
+import LogoImg from './../assets/img/snake.png';
 
 const Header = () => {
     
@@ -30,11 +30,9 @@ const Header = () => {
                 ENVY
             </div>
             <nav>
-                <a href="#" className="scroll-to-class" data-class="topBaner">Home</a>
+                <a href="#" className="scroll-to-class" data-class="features">White paper</a>
                 <a href="#" className="scroll-to-class" data-class="roadMap">RoadMap</a>
-                <a href="#" className="scroll-to-class" data-class="data">Data</a>
                 <a href="#" className="scroll-to-class" data-class="footerBody">Contact</a>
-                <a href="#" className="scroll-to-class" data-class="features">About us</a>
             </nav>
         </header>
     );

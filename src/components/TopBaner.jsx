@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoImg from "./../assets/img/logo.svg";
+import LogoImg from "./../assets/img/snake.png";
 import ArrowRight from "./../assets/img/arrow_right.svg";
 import TelegramImg from "./../assets/img/telegram.svg";
 import TwitterImg from "./../assets/img/twitter.svg";

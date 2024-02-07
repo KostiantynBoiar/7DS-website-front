@@ -6,16 +6,23 @@ import TopBaner from './TopBaner'
 import RoadMap from './RoadMap'
 import Footer from './Footer'
 import UpArrow from './upArrow'
+import Contract from './Contract'
+
 const App = () => {
   return (
     <>
+    <div className='main-container'>
       <Header />
       <TopBaner />
-      <RoadMap />
+      <Contract/>
       <Features />
+      <RoadMap />
       <Data />
+    </div>
+    <div className='bottom-page'>
       <Footer />
       <UpArrow/>
+    </div>
     </>
   )
 }

@@ -1,14 +1,18 @@
 
 
 body {
-    background: #343C82;
     overflow-x: hidden;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    justify-items: center;
 }
-
+.main-container{
+    width: 1440px;
+    margin: 0 auto;
+}
 html {
     scroll-behavior: smooth;
+    background: #343C82;
 }
 
 .roadmap-image{
@@ -37,8 +41,8 @@ header .logo {
 }
 
 header .logo img {
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 45px;
     margin-right: 16px;
 }
 
@@ -88,8 +92,8 @@ header nav a:last-child {
 }
 
 .topBaner .topBanerImg {
-    width: 424px;
-    height: 424px;
+    width: 554px;
+    height: 450px;
 }
 
 .topBaner .left {
@@ -409,13 +413,14 @@ header nav a:last-child {
 }
 
 footer {
+    width: 100%; /* Установите ширину футера на 100% */
+    bottom: 0; /* Размещаем футер внизу экрана */
     background: rgb(13, 13, 43);
     padding: 48px 74px 20px 74px;
     margin-top: 148px;
-
 }
 
-footer .footerBody {
+.footerBody {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -531,6 +536,71 @@ footer>span {
     animation-name: upArrow;
     animation-timing-function: linear;
     animation-duration: 0.5s;
+}
+
+.contact-wrapper {
+    display: flex;
+    height: 59px;
+    right: 55%;
+    position: absolute;
+    top: 553px;
+    width: 447px;
+  }
+  
+.contact {
+    height: 59px;
+    position: relative;
+    width: 451px;
+  }
+  
+.text-wrapper-29 {
+    color: #ffffff;
+    font-family: Rubik;
+    font-size: 16;
+    font-style:normal;
+    font-weight: lighter;
+    left: 0;
+    letter-spacing: 1px;
+    
+    position: absolute;
+    top: 0;
+    width: 435px;
+  }
+
+  .overlap-group-6 {
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 31px;
+    width: 447px;
+  }
+  .rectangle-7 {
+    height: 21px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 313px;
+}
+
+.text-wrapper-30 {
+    color: #ffffff;
+    font-family: "Rubik", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 12px;
+    letter-spacing: 0.1px;
+    line-height: 28px;
+    position: absolute;
+    top: 0;
+    width: 435px;
+  }
+  .copy {
+    height: 14px;
+    left: 289px;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    width: 14px;
 }
 @keyframes upArrow {
     0%{
