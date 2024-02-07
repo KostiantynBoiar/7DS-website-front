@@ -7,7 +7,7 @@ const Modal = ({ isOpen, onClose }) => {
         <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
             <div className="relative w-auto max-w-lg mx-auto my-6">
                 {/*content*/}
-                <div className="relative flex flex-col w-full bg-gray-900 border-0 rounded-lg shadow-lg outline-none focus:outline-none">
+                <div className="relative flex flex-col w-full bg-blue-900 border-0 rounded-lg shadow-lg outline-none focus:outline-none">
                     {/*header*/}
                     <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                         <h3 className="text-3xl font-semibold text-white">
@@ -40,13 +40,6 @@ const Modal = ({ isOpen, onClose }) => {
                             onClick={onClose}
                         >
                             Close
-                        </button>
-                        <button
-                            className="bg-gray-800 text-white active:bg-gray-700 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                            type="button"
-                            onClick={onClose}
-                        >
-                            Save Changes
                         </button>
                     </div>
                 </div>

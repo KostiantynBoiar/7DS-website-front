@@ -1,3 +1,5 @@
+
+
 body {
     background: #343C82;
     overflow-x: hidden;
@@ -121,8 +123,8 @@ header nav a:last-child {
 
 .topBaner .left .btns .btn {
     position: relative;
-    width: 150px;
-    height: 32px;
+    width: 190px;
+    height: 64;
     /* Auto layout */
     display: flex;
     justify-content: center;
@@ -231,7 +233,7 @@ header nav a:last-child {
     margin-top: 24px;
 }
 
-.features .featuresBlock .content button {
+.features .featuresBlock .content .content-button {
     display: flex;
     align-items: center;
     justify-content: center;
