@@ -30,9 +30,10 @@ const Header = () => {
                 ENVY
             </div>
             <nav>
-                <a href="#" className="scroll-to-class" data-class="features">White paper</a>
-                <a href="#" className="scroll-to-class" data-class="roadMap">RoadMap</a>
-                <a href="#" className="scroll-to-class" data-class="footerBody">Contact</a>
+                <a href="#" className="scroll-to-class" data-class="features">About us</a>
+                <a href="#" className="scroll-to-class" data-class="roadMap">Our mission</a>
+                <a href="#" className="scroll-to-class" data-class="data">Tokenomics</a>
+                <a href="#" className="scroll-to-class" data-class="footerBody">Join our community</a>
             </nav>
         </header>
     );

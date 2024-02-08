@@ -258,7 +258,8 @@ header nav a:last-child {
 }
 
 .features .featuresBlock>img {
-    transform: rotate(21.44deg);
+    transform: scale(-1, 1);
+    opacity: 1;
 }
 
 .features .featuresBlock.featuresBlockRight>img {
@@ -586,9 +587,7 @@ footer .footerBody .col ul a {
     top: 4px;
     width: 313px;
 }
-.social-icons .Two{
-    background-color: #ffffff;
-}
+
 .text-wrapper-30 {
     color: #ffffff;
     font-family: "Rubik", Helvetica;
@@ -657,8 +656,8 @@ footer .footerBody .col ul a {
         width: 100%;
     }
     .topBaner .topBanerImg {
-        min-width: 450px;
-        min-height: 554px;
+        width: 50%;
+        height: 50%;
     }
 
     .roadMap .roadMapElem .line {

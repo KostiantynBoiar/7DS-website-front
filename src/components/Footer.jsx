@@ -1,6 +1,6 @@
 import React from 'react'
-import LogoIcon from './../assets/img/logo.svg'
-import TelegramImg from "./../assets/img/telegram(1).png";
+import LogoIcon from './../assets/img/snake.png'
+import TelegramImg from "./../assets/img/telegram(2).png";
 import TwitterImg from "./../assets/img/X.png";
 
 const Fotter = () => {

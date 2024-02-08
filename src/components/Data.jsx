@@ -4,7 +4,7 @@ import DataElem from './DataElem'
 const Data = () => {
     return (
         <div className='data'>
-            <h2>Data</h2>
+            <h2>TOKENOMICS</h2>
             <div className="data_body">
                 <DataElem color="dark" title='Marketing' amount='20%' progressLength={20} />
                 <DataElem color="light" title='Advisory' amount='10%' progressLength={10} />
