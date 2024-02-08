@@ -18,14 +18,49 @@ const RoadMap = () => {
     }, []);
 
     return (
-        <div className='roadMap'data-aos="fade-right" >
+        <div className='roadMap'>
             <h2>OUR MISSION</h2>
-            <img src={RoadMapBG} className='roadMapBG' />
-            <RoadMapElem title='text' left='175px' top='210px' imageSrc = {logo}/>
-            <RoadMapElem title='text' left='775px' top='210px' imageSrc = ''/>
-            <RoadMapElem title='text' left='1175px' top='310px' imageSrc = ''/>
-            <RoadMapElem title='text' left='475px' top='410px' imageSrc = ''/>
-            <RoadMapElem title='text' left='875px' top='570px' imageSrc = ''/>
+            <div className="group-4">
+            <div className="overlap-5">
+              <p data-aos="fade-left" className="text-wrapper-22" id = 'snakeText'>
+                Вот текст которій показівает нашу
+                <br />
+                миссию
+              </p>
+              <p data-aos="fade-right" className="text-wrapper-23" id = 'snakeText'>
+                Вот текст которій показівает нашу
+                <br />
+                миссию
+              </p>
+              <p data-aos="fade-left" className="text-wrapper-24" id = 'snakeText'>
+                Вот текст которій показівает нашу
+                <br />
+                миссию
+              </p>
+              <p data-aos="fade-right"  className="text-wrapper-25" id = 'snakeText'>
+                Вот текст которій показівает нашу
+                <br />
+                миссию
+              </p>
+              <p data-aos="fade-left" className="text-wrapper-26" id = 'snakeText'>
+                Вот текст которій показівает нашу
+                <br />
+                миссию
+              </p>
+              <p  data-aos="fade-right"  className="text-wrapper-27" id = 'snakeText'>
+                Вот текст которій показівает нашу
+                <br />
+                миссию
+              </p>
+              <img
+              data-aos="fade-right" 
+                className="photo"
+                alt="Photo"
+                src="https://cdn.animaapp.com/projects/65c0edfdfdd29f06c4910f07/releases/65c510e89942e0da94a51de8/img/photo-2024-02-08-16-52-53-removebg-preview-1.png"
+              />
+            </div>
+            <div data-aos="fade-right" className="text-wrapper-28" id = 'snakeText'>New mission</div>
+          </div>
         </div>
     )
 }

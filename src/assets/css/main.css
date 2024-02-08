@@ -907,3 +907,83 @@ footer .footerBody .col ul a {
         padding: 24px;
     }
 }
+.group-4 {
+    height: 1321px;
+    left: 20%;
+    position: relative;
+    top: 0px;
+    width: 996px;
+  }
+  
+.overlap-5 {
+    height: 1094px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 982px;
+  }
+
+#snakeText{
+    color: #ffffff;
+    font-family: Rubick;
+    font-size: 18;
+    font-style:normal;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1;
+    position: absolute;
+    margin-top: 20px;
+
+}
+.text-wrapper-22 {
+    left: 441px;
+    top: 57px;
+    width: 305px;
+  }
+  
+.text-wrapper-23 {
+    color: #ffffff;
+    left: 118px;
+    top: 940px;
+    width: 305px;
+  }
+  
+.text-wrapper-24 {
+    left: 319px;
+    top: 323px;
+    width: 579px;
+  }
+  
+.text-wrapper-25 {
+    left: 49px;
+    top: 175px;
+    width: 305px;
+  }
+  
+.text-wrapper-26 {
+    left: 399px;
+    top: 704px;
+    transform: rotate(-1.64deg);
+    width: 581px;
+  }
+  
+.text-wrapper-27 {
+    left: 144px;
+    top: 515px;
+    width: 305px;
+  }
+  
+.photo {
+    height: 1094px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 773px;
+  }
+  
+.text-wrapper-28 {
+    left: 259px;
+    top: 1203px;
+    width: 305px;
+  }
