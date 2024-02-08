@@ -504,13 +504,16 @@ footer .footerBody .col ul a {
 }
 .footerBody{
     max-width: 1440px;
+    margin: 0 auto;
 }
-footer>span {
+
+.footerBody>span {
     color: rgb(255, 255, 255);
     font-family: Rubik;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    margin-top: 10%;
 }
 
 .up-arrow {
@@ -583,7 +586,9 @@ footer>span {
     top: 4px;
     width: 313px;
 }
-
+.social-icons .Two{
+    background-color: #ffffff;
+}
 .text-wrapper-30 {
     color: #ffffff;
     font-family: "Rubik", Helvetica;
@@ -652,7 +657,8 @@ footer>span {
         width: 100%;
     }
     .topBaner .topBanerImg {
-        width: 350px;
+        min-width: 450px;
+        min-height: 554px;
     }
 
     .roadMap .roadMapElem .line {

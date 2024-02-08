@@ -1,7 +1,7 @@
 import React from 'react'
 import LogoIcon from './../assets/img/logo.svg'
-import TelegramImg from "./../assets/img/telegram.svg";
-import TwitterImg from "./../assets/img/twitter.svg";
+import TelegramImg from "./../assets/img/telegram(1).png";
+import TwitterImg from "./../assets/img/X.png";
 
 const Fotter = () => {
     return (
@@ -14,10 +14,11 @@ const Fotter = () => {
                     <h3>Our social & media</h3>
                     <ul className='social-icons'>
                     <li>
-                    <img src={TelegramImg} className = 'One'/>
+                    
+                    <a href='https://google.com'><img src={TelegramImg} className = 'One'/></a>
                     </li>
                     <li>
-                    <img src={TwitterImg} className = 'Two'/>
+                    <a href='X.com'><img src={TwitterImg} className = 'Two'/></a>
                     </li>
                     </ul>
                 </div>
@@ -28,9 +29,9 @@ const Fotter = () => {
 
                     </ul>
                 </div>
+                <span>©2024 Envy. All rights reserved</span>
 
             </div>
-            <span>©2024 7DS. All rights reserved</span>
         </footer>
 
     )
