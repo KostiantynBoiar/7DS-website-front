@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import RoadMapBG from '../assets/img/roadmap.png';
 import RoadMapElem from './RoadMapElem';
-import logo from '../assets/img/logo.svg'
+import logo from '../assets/img/snake_logo.svg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -56,7 +56,7 @@ const RoadMap = () => {
               data-aos="fade-right" 
                 className="photo"
                 alt="Photo"
-                src="https://cdn.animaapp.com/projects/65c0edfdfdd29f06c4910f07/releases/65c510e89942e0da94a51de8/img/photo-2024-02-08-16-52-53-removebg-preview-1.png"
+                src={"https://cdn.animaapp.com/projects/65c0edfdfdd29f06c4910f07/releases/65c510e89942e0da94a51de8/img/photo-2024-02-08-16-52-53-removebg-preview-1.png"}
               />
             </div>
             <div data-aos="fade-right" className="text-wrapper-28" id = 'snakeText'>New mission</div>

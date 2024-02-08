@@ -652,6 +652,24 @@ footer .footerBody .col ul a {
 
 
 @media screen and (max-width:1240px) {
+    .roadMap img{
+        left: -200px;
+    }
+    #snakeText{
+        width: 150px;
+        display: flex;
+        
+    }
+    .roadMap p:nth-child(1){
+        left: 20%;
+    }
+    .roadMap p:nth-child(3){
+        left: 20%;
+    }
+    .roadMap p:nth-child(5){
+        left: 20%;
+    }
+    
     .main-container{
         width: 100%;
     }
@@ -821,6 +839,55 @@ footer .footerBody .col ul a {
 
 @media screen and (max-width:600px) {
 
+    .roadMap p:nth-child(1){
+        top: -30px;
+        
+    }
+    .roadMap p:nth-child(2){
+        left: 40px;
+        top: 800px;
+    }
+    .roadMap p:nth-child(3){
+        top: 230px;
+    }
+    .roadMap p:nth-child(4){
+        top: 100px;
+        left: -10px;
+    }
+    .roadMap p:nth-child(5){
+        top: 600px;
+    }
+    .roadMap p:nth-child(6){
+        top: 430px;
+        left: 30px;
+    }
+    .roadMap .text-wrapper-28{
+        top: 1000px;
+        left: 60px;
+    }
+    
+    .group-4 {
+            width: 100%;
+    }
+    .roadMap img{
+        width: 70%;
+        height: 85%;
+    }
+    #snakeText{
+        width: 150px;
+        display: flex;
+        
+    }
+    .roadMap p:nth-child(1){
+        left: 20%;
+    }
+    .roadMap p:nth-child(3){
+        left: 20%;
+    }
+    .roadMap p:nth-child(5){
+        left: 20%;
+    }
+    
 
     header {
         flex-direction: column;
