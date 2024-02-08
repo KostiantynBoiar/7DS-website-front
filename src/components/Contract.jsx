@@ -1,8 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contract = () => {
     const [copied, setCopied] = useState(false);
+
+
+    useEffect(() => {
+        AOS.init({
+            // Global settings:
+            offset: 300, // offset (in px) from the original trigger point
+            duration: 1000, // duration (in ms) of the animation
+            easing: 'ease', // default easing for AOS animations
+            once: true // whether animation should happen only once - while scrolling down
+        });
+    }, []);
 
     const handleCopy = () => {
         setCopied(true);
@@ -10,7 +23,7 @@ const Contract = () => {
     };
 
     return (
-        <div className="contact-wrapper">
+        <div className="contact-wrapper" data-aos="fade">
             <div className="contact">
                 <div className="text-wrapper-29">Contract address</div>
                 <div className="overlap-group-6">

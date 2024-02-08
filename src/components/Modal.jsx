@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Modal = ({ isOpen, onClose }) => {
+
+    useEffect(() => {
+        AOS.init({
+            // Global settings:
+            offset: 300, // offset (in px) from the original trigger point
+            duration: 1000, // duration (in ms) of the animation
+            easing: 'ease', // default easing for AOS animations
+            once: true // whether animation should happen only once - while scrolling down
+        });
+    }, []);
+
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
+        <div data-aos="fade" className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
             <div className="relative w-auto max-w-lg mx-auto my-6">
                 {/*content*/}
                 <div className="relative flex flex-col w-full bg-blue-900 border-0 rounded-lg shadow-lg outline-none focus:outline-none">
