@@ -2,6 +2,7 @@ import React from 'react'
 import LogoIcon from './../assets/img/snake.png'
 import TelegramImg from "./../assets/img/telegram(2).png";
 import TwitterImg from "./../assets/img/X.png";
+import EmailIcon from "../assets/img/mail_icon.png"
 
 const Fotter = () => {
     return (
@@ -19,6 +20,9 @@ const Fotter = () => {
                     </li>
                     <li>
                     <a href='X.com'><img src={TwitterImg} className = 'Two'/></a>
+                    </li>
+                    <li>
+                    <a href='mailto:kostya20041234@gmail.com'><img src={EmailIcon} className = 'Two'/></a>
                     </li>
                     </ul>
                 </div>
