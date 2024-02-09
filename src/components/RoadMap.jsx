@@ -56,7 +56,7 @@ const RoadMap = () => {
               data-aos="fade-right" 
                 className="photo"
                 alt="Photo"
-                src={"https://cdn.animaapp.com/projects/65c0edfdfdd29f06c4910f07/releases/65c510e89942e0da94a51de8/img/photo-2024-02-08-16-52-53-removebg-preview-1.png"}
+                src={logo}
               />
             </div>
             <div data-aos="fade-right" className="text-wrapper-28" id = 'snakeText'>New mission</div>

@@ -652,22 +652,39 @@ footer .footerBody .col ul a {
 
 
 @media screen and (max-width:1240px) {
-    .roadMap img{
-        left: -200px;
-    }
-    #snakeText{
-        width: 150px;
-        display: flex;
-        
-    }
+    
     .roadMap p:nth-child(1){
-        left: 20%;
+        top: 0px;  
+    }
+    .roadMap p:nth-child(2){
+        left: 150px;
+        top: 980px;
     }
     .roadMap p:nth-child(3){
-        left: 20%;
+        top: 250px;
+        left: 110px;
+    }
+    .roadMap p:nth-child(4){
+        top: 150px;
+        left: 500px;
+        width: 250px;
     }
     .roadMap p:nth-child(5){
-        left: 20%;
+        top: 700px;
+        left: 80px;
+    }
+    .roadMap p:nth-child(6){
+        top: 420px;
+        left: 190px;
+    }
+
+    .roadMap .text-wrapper-28{
+        top: 1400px;
+        left: 10px;
+    }
+    
+    .group-4 {
+            width: 100%;
     }
     
     .main-container{
@@ -781,10 +798,54 @@ footer .footerBody .col ul a {
 }
 
 @media screen and (max-width:820px) {
-    .roadMap .roadMapElem {
-        width: 100px;
-    }
+    
+    .roadMap p:nth-child(1){
+        top: 60px;
+        left: 190px;
 
+    }
+    .roadMap p:nth-child(2){
+        left: -90px;
+        top: 720px;
+    }
+    .roadMap p:nth-child(3){
+        top: 320px;
+        left: 110px;
+    }
+    .roadMap p:nth-child(4){
+        top: 200px;
+        left: -10px;
+    }
+    .roadMap p:nth-child(5){
+        top: 600px;
+        left: 80px;
+    }
+    .roadMap p:nth-child(6){
+        top: 450px;
+        left: 0px;
+    }
+    .roadMap .text-wrapper-28{
+        top: 900px;
+        left: 10px;
+    }
+    
+    .group-4 {
+            width: 100%;
+    }
+    #snakeText{
+        width: 150px;
+        display: flex;
+        
+    }
+    .roadMap{
+        width: 300px;
+    }
+    .roadMap .photo{
+        width: 42%;
+        top: -200px;
+        left: -10%;
+        
+    }
     .roadMap .roadMapElem .roadMapElemBody {
         width: 100px;
         height: 50px;
@@ -840,54 +901,43 @@ footer .footerBody .col ul a {
 @media screen and (max-width:600px) {
 
     .roadMap p:nth-child(1){
-        top: -30px;
+        top: 160px;
         
     }
     .roadMap p:nth-child(2){
-        left: 40px;
-        top: 800px;
+        left: -90px;
+        top: 720px;
     }
     .roadMap p:nth-child(3){
-        top: 230px;
+        top: 320px;
+        left: 110px;
     }
     .roadMap p:nth-child(4){
-        top: 100px;
+        top: 200px;
         left: -10px;
     }
     .roadMap p:nth-child(5){
         top: 600px;
+        left: 80px;
     }
     .roadMap p:nth-child(6){
-        top: 430px;
-        left: 30px;
+        top: 450px;
+        left: 0px;
     }
     .roadMap .text-wrapper-28{
-        top: 1000px;
-        left: 60px;
+        top: 900px;
+        left: 10px;
     }
     
     .group-4 {
             width: 100%;
-    }
-    .roadMap img{
-        width: 70%;
-        height: 85%;
     }
     #snakeText{
         width: 150px;
         display: flex;
         
     }
-    .roadMap p:nth-child(1){
-        left: 20%;
-    }
-    .roadMap p:nth-child(3){
-        left: 20%;
-    }
-    .roadMap p:nth-child(5){
-        left: 20%;
-    }
-    
+
 
     header {
         flex-direction: column;
@@ -935,47 +985,12 @@ footer .footerBody .col ul a {
         width: 100%;
     }
 
-    .roadMap .roadMapElem {
-        width: 70px;
-    }
-
-    .roadMap .roadMapElem .roadMapElemBody {
-        width: 70px;
-        height: 30px;
-        border-radius: 20px;
-    }
-
-    .roadMap .roadMapElem:nth-child(3) {
-        left: 5% !important;
-        top: 37% !important;
-    }
-
-    .roadMap .roadMapElem:nth-child(4) {
-        left: 60% !important;
-        top: 37% !important;
-    }
-
-    .roadMap .roadMapElem:nth-child(5) {
-        left: 87% !important;
-        top: 50% !important;
-    }
-
-    .roadMap .roadMapElem:nth-child(6) {
-        left: 35% !important;
-        top: 57% !important;
-    }
-
-    .roadMap .roadMapElem:nth-child(7) {
-        left: 75% !important;
-        top: 75% !important;
-    }
-
     footer {
         padding: 24px;
     }
 }
 .group-4 {
-    height: 1321px;
+    height: 1421px;
     left: 20%;
     position: relative;
     top: 0px;
@@ -983,7 +998,7 @@ footer .footerBody .col ul a {
   }
   
 .overlap-5 {
-    height: 1094px;
+    height: 1394px;
     left: 0;
     position: absolute;
     top: 0;
@@ -1010,47 +1025,46 @@ footer .footerBody .col ul a {
   
 .text-wrapper-23 {
     color: #ffffff;
-    left: 118px;
+    left: 218px;
     top: 940px;
     width: 305px;
   }
   
 .text-wrapper-24 {
-    left: 319px;
-    top: 323px;
+    left: 489px;
+    top: 203px;
     width: 579px;
   }
   
 .text-wrapper-25 {
-    left: 49px;
-    top: 175px;
+    left: 110px;
+    top: 275px;
     width: 305px;
   }
   
 .text-wrapper-26 {
-    left: 399px;
+    left: 100px;
     top: 704px;
     transform: rotate(-1.64deg);
     width: 581px;
   }
   
 .text-wrapper-27 {
-    left: 144px;
-    top: 515px;
+    left: 244px;
+    top: 455px;
     width: 305px;
   }
   
 .photo {
-    height: 1094px;
+    height: 1404px;
     left: 0;
-    object-fit: cover;
     position: absolute;
     top: 0;
     width: 773px;
   }
   
 .text-wrapper-28 {
-    left: 259px;
-    top: 1203px;
+    left: 59px;
+    top: 1353px;
     width: 305px;
   }
