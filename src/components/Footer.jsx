@@ -16,13 +16,13 @@ const Fotter = () => {
                     <ul className='social-icons'>
                     <li>
                     
-                    <a href='https://google.com'><img src={TelegramImg} className = 'One'/></a>
+                    <a href='https://t.me/envycrpt'><img src={TelegramImg} className = 'One'/></a>
                     </li>
                     <li>
-                    <a href='X.com'><img src={TwitterImg} className = 'Two'/></a>
+                    <a href='https://x.com/EnvyCoinCrpt?t=Z3Lhn3uWt0JN-6UBiIKJgQ&s=09'><img src={TwitterImg} className = 'Two'/></a>
                     </li>
                     <li>
-                    <a href='mailto:kostya20041234@gmail.com'><img src={EmailIcon} className = 'Two'/></a>
+                    <a href='mailto:envycommunicationgm@gmail.com'><img src={EmailIcon} className = 'Two'/></a>
                     </li>
                     </ul>
                 </div>
