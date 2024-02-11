@@ -12,7 +12,7 @@ const Fotter = () => {
                     <img src={LogoIcon} /> 
                 </div>
                 <div className="col">
-                    <h3>Our social & media</h3>
+                    <h3>Social & Community</h3>
                     <ul className='social-icons'>
                     <li>
                     

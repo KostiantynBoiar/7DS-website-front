@@ -23,34 +23,32 @@ const RoadMap = () => {
             <div className="group-4">
             <div className="overlap-5">
               <p data-aos="fade-left" className="text-wrapper-22" id = 'snakeText'>
-                Вот текст которій показівает нашу
+              START TRADING ON DEX EXCHANGES
                 <br />
-                миссию
               </p>
               <p data-aos="fade-right" className="text-wrapper-23" id = 'snakeText'>
-                Вот текст которій показівает нашу
+                LAUNCH AIRDROP
                 <br />
-                миссию
               </p>
               <p data-aos="fade-left" className="text-wrapper-24" id = 'snakeText'>
-                Вот текст которій показівает нашу
+               1
                 <br />
-                миссию
+                
               </p>
               <p data-aos="fade-right"  className="text-wrapper-25" id = 'snakeText'>
-                Вот текст которій показівает нашу
+              2
                 <br />
-                миссию
+                
               </p>
               <p data-aos="fade-left" className="text-wrapper-26" id = 'snakeText'>
-                Вот текст которій показівает нашу
+              REACH 1000 HOLDERS
                 <br />
-                миссию
+                
               </p>
               <p  data-aos="fade-right"  className="text-wrapper-27" id = 'snakeText'>
-                Вот текст которій показівает нашу
+              CG & CMC LIST
                 <br />
-                миссию
+                
               </p>
               <img
               data-aos="fade-right" 
@@ -59,7 +57,7 @@ const RoadMap = () => {
                 src={logo}
               />
             </div>
-            <div data-aos="fade-right" className="text-wrapper-28" id = 'snakeText'>New mission</div>
+            <div data-aos="fade-right" className="text-wrapper-28" id = 'snakeText'>LISTING ON A CEX</div>
           </div>
         </div>
     )

@@ -231,6 +231,7 @@ header nav a:last-child {
     font-family: Rubik;
     font-size: 16px;
     font-weight: 400;
+
     line-height: 28px;
     letter-spacing: 1%;
     text-align: left;
@@ -1020,19 +1021,19 @@ footer .footerBody .col ul a {
 .text-wrapper-22 {
     left: 441px;
     top: 0px;
-    width: 305px;
+    width: 405px;
   }
   
 .text-wrapper-23 {
     color: #ffffff;
     left: 218px;
-    top: 940px;
+    top: 980px;
     width: 305px;
   }
   
 .text-wrapper-24 {
     left: 489px;
-    top: 203px;
+    top: 153px;
     width: 305px;
   }
   

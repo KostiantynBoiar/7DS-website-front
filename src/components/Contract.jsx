@@ -32,8 +32,8 @@ const Contract = () => {
                         alt="Rectangle"
                         src="https://cdn.animaapp.com/projects/65c0edfdfdd29f06c4910f07/releases/65c3f82b4897f7491f18622a/img/rectangle-7@2x.png"
                     />
-                    <div className="text-wrapper-30">0x8390a1DA07E376ef7aDd4Be859BA74Fb83aA02D5</div>
-                    <CopyToClipboard text="0x8390a1DA07E376ef7aDd4Be859BA74Fb83aA02D5" onCopy={handleCopy}>
+                    <div className="text-wrapper-30">0x217406D51bB8bd006E8d55c0cFC2a1F56E061844</div>
+                    <CopyToClipboard text="0x217406D51bB8bd006E8d55c0cFC2a1F56E061844" onCopy={handleCopy}>
                         <img
                             className="copy"
                             alt="Copy"

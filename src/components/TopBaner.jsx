@@ -21,7 +21,7 @@ const TopBaner = () => {
     return (
         <div className='topBaner'>
             <div className="left" data-aos="fade-right">
-                <h1>BUY&HOLD AND GET RICH</h1>
+                <h1>BUY & HOLD</h1>
                 <span>Seven deadly sins - seven chances</span>
                 <div className="btns">
                     <div className="btn">

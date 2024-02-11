@@ -3,6 +3,7 @@ import FeaturesBlock from './F_Block'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 const Features = () => {
 
     useEffect(() => {
@@ -20,11 +21,11 @@ const Features = () => {
             <div className='circleBG circle1'></div>
             <div className='circleBG circle2'></div>
             <div className='circleBG circle3'></div>
-            <h2>ABOUT PROJECT</h2>
-            <div data-aos="fade-right">           <FeaturesBlock   direction='right' link='#' title='Invest Smart' text='Our creation is dedicated to one of the deadly sins. It is called envy. Our project is a meme built on the BSC network and depicted in the form of a coin with a snake. Our team is not going to stop developing' /></div>
-            <div data-aos="fade-left">            <FeaturesBlock  direction='left' link='#' title='Detailed Statistics' text='We want to build a friendly community, develop in different directions, starting with airdrops, then staking, and ending with games with the possibility of earning money. ' />
+            <h2>ABOUT TOKEN</h2>
+            <div data-aos="fade-right">           <FeaturesBlock   direction='right' link='#' title='Introduction' text= 'Our creation is dedicated to one of the deadly sins. It was created on the BSC network. Has a total supply of 100 million tokens and is presented in the form of a coin with a snake design' /></div>
+            <div data-aos="fade-left">            <FeaturesBlock  direction='left' link='#' title='Idea & implementation' text='pohui vse ravno nikto ne 4itaet' />
 </div>
-            <div data-aos="fade-right">            <FeaturesBlock  direction='right' link='#' title='Grow your profit and track your investments' text='We will constantly update our goals, which you can find in the “our missions” section. We will also continue to recruit specialists in various fields, constantly expanding the team and accelerating our development You can follow all our activity on our social networks' />
+            <div data-aos="fade-right">            <FeaturesBlock  direction='right' link='#' title='This might interested you' text='The developers are gonna create a “Play to Earn” game and make a staking system for motivation to stay with us' />
 </div>
         </div>
     )

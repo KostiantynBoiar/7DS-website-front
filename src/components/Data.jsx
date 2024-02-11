@@ -6,11 +6,11 @@ const Data = () => {
         <div className='data'>
             <h2>TOKENOMICS</h2>
             <div className="data_body">
-                <DataElem color="dark" title='Marketing' amount='20%' progressLength={20} />
-                <DataElem color="light" title='Advisory' amount='10%' progressLength={10} />
-                <DataElem color="dark" title='Rewards' amount='50%' progressLength={50} />
-                <DataElem color="light" title='Development' amount='10%' progressLength={10} />
-                <DataElem color="dark" title='Total income' amount='$150K' progressLength={90} />
+                <DataElem color="dark" title='XUI' amount='100%' progressLength={100} />
+                <DataElem color="light" title='XUI' amount='10%' progressLength={10} />
+                <DataElem color="dark" title='XUI' amount='50%' progressLength={50} />
+                <DataElem color="light" title='XUI' amount='10%' progressLength={10} />
+                <DataElem color="dark" title='XUI' amount='$150K' progressLength={90} />
             </div>
         </div>
     )
