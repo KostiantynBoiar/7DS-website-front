@@ -33,7 +33,7 @@ const Header = () => {
                 <a href="#" className="scroll-to-class" data-class="features">About us</a>
                 <a href="#" className="scroll-to-class" data-class="roadMap">Our mission</a>
                 <a href="#" className="scroll-to-class" data-class="data">Tokenomics</a>
-                <a href="#" className="scroll-to-class" data-class="footerBody">Join community</a>
+                <a href="#" className="scroll-to-class" data-class="footerBody">Join</a>
             </nav>
         </header>
     );

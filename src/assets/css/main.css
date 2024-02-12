@@ -601,6 +601,15 @@ footer .footerBody .col ul a {
     top: 0;
     width: 435px;
   }
+  .checkmark{
+    width: 20px;
+    height: 20px;
+    left: 140px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+
+}
   .copy {
     height: 14px;
     left: 289px;

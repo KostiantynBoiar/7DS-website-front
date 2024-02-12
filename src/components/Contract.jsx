@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import CheckMark from '../assets/img/check(1).png'
 const Contract = () => {
     const [copied, setCopied] = useState(false);
 
@@ -25,7 +25,12 @@ const Contract = () => {
     return (
         <div className="contact-wrapper" data-aos="fade">
             <div className="contact">
-                <div className="text-wrapper-29">Contract address</div>
+                <div className="text-wrapper-29">Smart-contract</div>
+                <img
+                            className="checkmark"
+                            alt="Copy"
+                            src={CheckMark}
+                        />
                 <div className="overlap-group-6">
                     <img
                         className="rectangle-7"

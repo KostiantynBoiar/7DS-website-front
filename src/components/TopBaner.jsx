@@ -1,13 +1,15 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import LogoImg from "./../assets/img/snake.png";
 import ArrowRight from "./../assets/img/arrow_right.svg";
-import TelegramImg from "./../assets/img/telegram.svg";
-import TwitterImg from "./../assets/img/twitter.svg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const TopBaner = () => {
 
+    const handleButtonClick = () => {
+        window.location.href = 'https://example.com'; // Замените 'https://example.com' на URL вашей внешней ссылки
+    };
+    
     useEffect(() => {
         AOS.init({
             // Global settings:
@@ -23,16 +25,19 @@ const TopBaner = () => {
             <div className="left" data-aos="fade-right">
                 <h1>BUY & HOLD</h1>
                 <span>Seven deadly sins - seven chances</span>
-                <div className="btns">
-                    <div className="btn">
-                        Buy it now
-                        <img src={ArrowRight} />
+                <button onClick={handleButtonClick}>
+                    <div className="btns">
+                        <div className="btn">
+                            Buy it now
+                            <img src={ArrowRight} />
+                        </div>
                     </div>
-                </div>
+                </button>
             </div>
             <img data-aos="fade-left" className='topBanerImg' src={LogoImg} />
         </div>
     )
 }
 
-export default TopBaner
+
+export default TopBaner;
